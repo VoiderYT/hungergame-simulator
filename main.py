@@ -79,7 +79,7 @@ class Player:
   def __init__(self, name):
     self.name = name
     self.items = {'water': 3, 'food': 2}
-    self.health = 50
+    self.health = 100
     self.hunger = 100
     self.thirst = 100
     self.location = 'Clearing'
